@@ -11,6 +11,6 @@
     "gdexporter": "^3.2.5"
   },
   "scripts": {
-    "build": "gdexport -p game.json -o dist --verbose"
+    "build": "node -e \"require('gdexporter/bin/cli.js')\" -- -p game.json -o dist --verbose"
   }
 }
