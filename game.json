@@ -1,0 +1,419 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.arthuro555.cri",
+    "pixelsRounding": false,
+    "projectUuid": "1ffe5cff-d0b1-4531-a826-2e6ea23ef890",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "Cri.io",
+    "author": "Arthuro555",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "authorIds": [
+      "ZgrsWuRTAkXgeuPV9bo0zuEcA2w1"
+    ],
+    "extensionProperties": [
+      {
+        "extension": "Firebase",
+        "property": "FirebaseConfig",
+        "value": "{\"apiKey\":\"AIzaSyD4rdEc2jxmyhulimjDpd-cxaw1Pd20Hlk\",\"authDomain\":\"cri-io.firebaseapp.com\",\"projectId\":\"cri-io\",\"storageBucket\":\"cri-io.appspot.com\",\"messagingSenderId\":\"22698964358\",\"appId\":\"1:22698964358:web:fcd537e52f601a83bae807\",\"measurementId\":\"G-25ZRE5Z5Y4\"}"
+      }
+    ],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "cri.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cri.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "BG-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BG-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Start button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Start button.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/On-Screen Controls/Sprites/Shaded Dark/Start button.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "teare-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "teare-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Clipboard.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Clipboard.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Generic Items (160 assets)/PNG/Clipboard.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "yes-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "yes-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "dot-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "dot-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bar Frame_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bar Frame_No Shadow.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Interface/PX UI Basic/Bar Frame_No Shadow.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bar Frame_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bar Frame_Shadow.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Interface/PX UI Basic/Bar Frame_Shadow.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "FlexContainer-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "FlexContainer-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "FlexContainer-1 - Copie.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "FlexContainer-1 - Copie.png",
+        "smoothed": true,
+        "userAdded": false
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "names",
+      "type": "array",
+      "children": [
+        {
+          "type": "string",
+          "value": "Cri"
+        },
+        {
+          "type": "string",
+          "value": "Arthuro"
+        },
+        {
+          "type": "string",
+          "value": "Wesley"
+        },
+        {
+          "type": "string",
+          "value": "e"
+        },
+        {
+          "type": "string",
+          "value": "Jean-Pierre"
+        },
+        {
+          "type": "string",
+          "value": "Rinax"
+        },
+        {
+          "type": "string",
+          "value": "cri²"
+        },
+        {
+          "type": "string",
+          "value": "cri³"
+        },
+        {
+          "type": "string",
+          "value": "super-cri"
+        },
+        {
+          "type": "string",
+          "value": "yes"
+        },
+        {
+          "type": "string",
+          "value": "Bean"
+        },
+        {
+          "type": "string",
+          "value": "child"
+        },
+        {
+          "type": "string",
+          "value": "Leo"
+        },
+        {
+          "type": "string",
+          "value": "Gilgamesh"
+        },
+        {
+          "type": "string",
+          "value": "Marcos"
+        },
+        {
+          "type": "string",
+          "value": "Maurice"
+        },
+        {
+          "type": "string",
+          "value": "Michael"
+        }
+      ]
+    },
+    {
+      "name": "adjectives",
+      "type": "array",
+      "children": [
+        {
+          "type": "string",
+          "value": "criing"
+        },
+        {
+          "type": "string",
+          "value": "crying"
+        },
+        {
+          "type": "string",
+          "value": "depressed"
+        },
+        {
+          "type": "string",
+          "value": "hinderer"
+        },
+        {
+          "type": "string",
+          "value": "sword"
+        },
+        {
+          "type": "string",
+          "value": "red"
+        },
+        {
+          "type": "string",
+          "value": "555th"
+        },
+        {
+          "type": "string",
+          "value": "name's"
+        },
+        {
+          "type": "string",
+          "value": "agreeing"
+        },
+        {
+          "type": "string",
+          "value": "sad"
+        },
+        {
+          "type": "string",
+          "value": "angery"
+        },
+        {
+          "type": "string",
+          "value": "raging"
+        },
+        {
+          "type": "string",
+          "value": "dabbing"
+        },
+        {
+          "type": "string",
+          "value": "emerald splashing"
+        },
+        {
+          "type": "string",
+          "value": "stander"
+        },
+        {
+          "type": "string",
+          "value": "murderous"
+        },
+        {
+          "type": "string",
+          "value": "reality consumer"
+        }
+      ]
+    },
+    {
+      "name": "titles",
+      "type": "array",
+      "children": [
+        {
+          "type": "string",
+          "value": "Devil"
+        },
+        {
+          "type": "string",
+          "value": "4ian cultist"
+        },
+        {
+          "type": "string",
+          "value": "but water"
+        },
+        {
+          "type": "string",
+          "value": "alt account"
+        },
+        {
+          "type": "string",
+          "value": "premium version"
+        },
+        {
+          "type": "string",
+          "value": "consumable, eat me"
+        },
+        {
+          "type": "string",
+          "value": "stand user"
+        },
+        {
+          "type": "string",
+          "value": "cri legion"
+        },
+        {
+          "type": "string",
+          "value": "fireside"
+        }
+      ]
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/menue"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/actual-game-lol"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/connecting"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flexbox"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/randomcolor"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/clipboard"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/urltools"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/fps"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/sticker"
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}

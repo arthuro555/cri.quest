@@ -1,0 +1,16 @@
+{
+  "name": "CRI_io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/arthuro555/cri.quest",
+  "author": "Arthur Pacaud <arthur.pacaud@hotmail.fr>",
+  "license": "MIT",
+  "dependencies": {
+    "@gdexporter/plugin-manifest": "^1.0.0",
+    "@gdexporter/plugin-offline": "^1.0.0",
+    "gdexporter": "^3.2.5"
+  },
+  "scripts": {
+    "build": "gdexport -p game.json -o dist --verbose"
+  }
+}
