@@ -113,7 +113,7 @@
       "height": 64,
       "name": "bg",
       "tags": "",
-      "texture": "BG-1.png",
+      "texture": "BG.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 64,
       "variables": [],
@@ -270,7 +270,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "dot-1.png",
+                  "image": "dot.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

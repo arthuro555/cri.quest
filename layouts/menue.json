@@ -182,7 +182,7 @@
       "height": 64,
       "name": "BG",
       "tags": "",
-      "texture": "BG-1.png",
+      "texture": "BG.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 64,
       "variables": [],
@@ -243,7 +243,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "FlexContainer-1.png",
+                  "image": "FlexMainContainer",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -306,7 +306,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "FlexContainer-1 - Copie.png",
+                  "image": "FlexSubContainer",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -564,7 +564,7 @@
       "rendererType": "Quad",
       "tags": "",
       "tank": 1,
-      "textureParticleName": "yes-1.png",
+      "textureParticleName": "Yes.png",
       "type": "ParticleSystem::ParticleEmitter",
       "zoneRadius": 1,
       "variables": [],

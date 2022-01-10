@@ -88,9 +88,18 @@
   },
   "resources": {
     "resources": [
+	  {
+        "alwaysLoaded": false,
+        "file": "icons/favicon.ico",
+        "kind": "image",
+        "metadata": "",
+        "name": "favicon",
+        "smoothed": true,
+        "userAdded": true
+      },
       {
         "alwaysLoaded": false,
-        "file": "cri.png",
+        "file": "assets/cri.png",
         "kind": "image",
         "metadata": "",
         "name": "cri.png",
@@ -99,10 +108,10 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "BG-1.png",
+        "file": "assets/BG.png",
         "kind": "image",
         "metadata": "",
-        "name": "BG-1.png",
+        "name": "BG.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -121,15 +130,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "teare-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "teare-1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Clipboard.png",
         "kind": "image",
         "metadata": "",
@@ -143,68 +143,33 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "yes-1.png",
+        "file": "assets/dot.png",
         "kind": "image",
         "metadata": "",
-        "name": "yes-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "dot-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "dot-1.png",
+        "name": "dot.png",
         "smoothed": true,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Bar Frame_No Shadow.png",
+        "file": "assets/FlexMainContainer.png",
         "kind": "image",
         "metadata": "",
-        "name": "Bar Frame_No Shadow.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Interface/PX UI Basic/Bar Frame_No Shadow.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Bar Frame_Shadow.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Bar Frame_Shadow.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://resources.gdevelop-app.com/assets/Interface/PX UI Basic/Bar Frame_Shadow.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "FlexContainer-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "FlexContainer-1.png",
+        "name": "FlexMainContainer",
         "smoothed": true,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "FlexContainer-1 - Copie.png",
+        "file": "assets/FlexSubContainer.png",
         "kind": "image",
         "metadata": "",
-        "name": "FlexContainer-1 - Copie.png",
+        "name": "FlexSubContainer",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "Staatliches-Regular.ttf",
+        "file": "fonts/Staatliches-Regular.ttf",
         "kind": "font",
         "metadata": "",
         "name": "Staatliches-Regular.ttf",
@@ -441,6 +406,15 @@
         "kind": "image",
         "metadata": "",
         "name": "ios-icon-20.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Yes.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Yes.png",
         "smoothed": true,
         "userAdded": true
       }
