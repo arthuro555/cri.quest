@@ -36,24 +36,8 @@
       "name": "cri",
       "persistentUuid": "727dd24e-362f-40d6-98bb-aa2c0e3c1a8e",
       "width": 0,
-      "x": 463,
-      "y": 262,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "criio",
-      "persistentUuid": "2b4d9795-5e84-45fb-84ba-23657acf7d34",
-      "width": 0,
-      "x": 177,
-      "y": 278,
+      "x": 586,
+      "y": 256,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -168,10 +152,26 @@
       "locked": false,
       "name": "SubContainer",
       "persistentUuid": "cf4c9a98-fa22-4b44-90a0-cee178096d59",
-      "width": 603,
-      "x": 95,
+      "width": 762,
+      "x": 7,
       "y": 247,
       "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 78,
+      "layer": "",
+      "locked": false,
+      "name": "CRI",
+      "persistentUuid": "bc970d92-619f-4bf1-960c-464f476baf4e",
+      "width": 280,
+      "x": 71,
+      "y": 276,
+      "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -341,7 +341,7 @@
           "ContainerID": "Sub",
           "Growth": 0,
           "Shrink": 0,
-          "Order": 1,
+          "Order": 2,
           "AlignSelf": ""
         }
       ],
@@ -398,7 +398,7 @@
           "AlignSelf": ""
         }
       ],
-      "string": "CRI.io",
+      "string": "CRI",
       "font": "",
       "characterSize": 75,
       "color": {
@@ -469,7 +469,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Your invite url is: Loading...",
-      "font": "",
+      "font": "Staatliches-Regular.ttf",
       "characterSize": 30,
       "color": {
         "b": 0,
@@ -570,6 +570,66 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "name": "quest",
+      "tags": "",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "FlexItem",
+          "type": "FlexBox::FlexItem",
+          "ContainerID": "Sub",
+          "Growth": 0,
+          "Shrink": 0,
+          "Order": 1,
+          "AlignSelf": "center",
+          "FullWidth": false,
+          "FullHeight": false
+        }
+      ],
+      "content": {
+        "text": "[b][shadow=red].[outline=yellow]quest[/outline][/shadow] [/b] ",
+        "opacity": 255,
+        "fontSize": 75,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "Arial",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "name": "CRI",
+      "tags": "",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "FlexItem",
+          "type": "FlexBox::FlexItem",
+          "ContainerID": "Sub",
+          "Growth": 0,
+          "Shrink": 0,
+          "Order": 0,
+          "AlignSelf": "",
+          "FullWidth": false,
+          "FullHeight": false
+        }
+      ],
+      "content": {
+        "text": "[b][outline=yellow][shadow=black]CRI[/shadow][/outline][shadow=red].[outline=yellow]quest[/outline][/shadow][/b]",
+        "opacity": 255,
+        "fontSize": 75,
+        "visible": true,
+        "color": "0;0;0",
+        "fontFamily": "Staatliches-Regular.ttf",
+        "align": "center",
+        "wordWrap": false
+      }
     }
   ],
   "events": [

@@ -8,9 +8,9 @@
   "dependencies": {
     "@gdexporter/plugin-manifest": "^1.0.0",
     "@gdexporter/plugin-offline": "^1.0.0",
-    "gdexporter": "^3.2.5"
+    "gdexporter": "^3.2.6"
   },
   "scripts": {
-    "build": "node -e \"require('gdexporter/bin/cli.js')\" -- -p game.json -o dist --verbose"
+    "build": "node -e \"require('gdexporter/bin/cli.js')\""
   }
 }
