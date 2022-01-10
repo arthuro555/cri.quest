@@ -3,7 +3,8 @@ module.exports = {
   output: "./dist",
   gdevelopVersion: "v5.0.124",
   plugins: [
-  	require("@gdexporter/plugin-manifest"),
-	require("@gdexporter/plugin-offline"),
+    require("@gdexporter/plugin-manifest"),
+    require("@gdexporter/plugin-offline"),
+    require("./js/meta-tags-plugin"),
   ],
 };
